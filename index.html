@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Expo Scout</title>
+        <link href="./index.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <!-- Navbar -->
+        <div id="navbar">
+            <div class="logo">
+                <div>
+                    <i id="plug" class="fa fa-plug" aria-hidden="true"></i>
+                </div>
+                <div>
+                <h3>S C O U T</h3>
+                </div>
+            </div>
+            <div>
+                <a href="/"><i id="navHome" class="fa fa-home" aria-hidden="true"></i></a>
+                <a href="#footerPageLink"><i id="navContact" class="fa fa-phone" aria-hidden="true"></i></a>
+            </div>
+        </div>
+
+        <!-- Landing Page -->
+        <div id="container1">
+            <div>
+                <img src="./images/riccardosabatini_ Photo.jpeg"/>
+            </div>
+            <div id="binaryWords">
+                <h2>
+                    Welcome&nbsp;to&nbsp;<span id="binaryCode"></span>
+                </h2>
+            </br>
+                <p id="introParagraph">Your go-to source for staying ahead in the world of technology!
+
+                    Stay informed and connected with the latest tech events, expos, and conferences from around the globe! Whether you're a tech enthusiast, developer, entrepreneur, or simply curious about the future, our app has you covered. Explore a world of innovation, networking opportunities, and knowledge-sharing at your fingertips. Join us on this journey to discover the future of tech, one event at a time.</p>
+            </div>
+        </div>
+    <hr/>
+    </br>
+        <div id="container2">
+            <div id="upcomingEvents">
+                <h2>Upcoming Events</h2>
+                <ul id="eventsList">
+                    <!-- List of upcoming events goes here -->
+                </ul>
+            </div>
+            <div id="eventCard">
+                <div id="eventDetails">
+                    <h1 id="name">Event name goes here</h1>
+                    <div id="imageDiv">
+                        <img id="image" src="" alt="loading..."/>
+                    </div>
+                    <p><h4>Organized by: </h4><span id="organizer">organizer goes here</span></p>
+                </br>
+                    <p><h4><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;Date: </h4><span id="date">date goes here</span></p>
+                </br>
+                    <p><h4><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;Location: </h4><span id="location">location goes here</span></p>
+                </br>
+                    <p><h4><i class="fa fa-quote-left" aria-hidden="true"></i>&nbsp;About: </h4><span id="description">description goes here</span></p>
+                </br>
+                    <p><h4><i class="fa fa-users" aria-hidden="true"></i>&nbsp;Attendees: </h4><span id="attendees">attendees goes here</span></p>
+                </br>
+
+                    <div id="buttonsDiv">
+                        <div>
+                           <button id="getTicket" type="button">GET&nbsp;<i class="fa fa-ticket" aria-hidden="true"></i></button>
+                        </div>
+                        <div id="buttons">
+                           <!-- DELETE buttons goes here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="div3">
+                <h5>Are you an organizer? Fill in the form below to log your event!</h5>
+
+                <div id="form">
+                    <input id="inputName" type="text" placeholder="Event Name">
+                </br></br>
+                    <input id="inputOrganizer" type="text" placeholder="Organizer">
+                </br></br>
+                    <input id="inputDate" type="text" placeholder="Date">
+                </br></br>
+                    <input id="inputLocation" type="text" placeholder="Location">
+                </br></br>
+                    <input id="inputAttendess" type="text" placeholder="Number of Attendees (Optional)">
+                </br></br>
+                <input id="inputDescription" type="text" placeholder="Description">
+                </br></br>
+                <button id="submit" type="submit">Submit</button>
+                </div>
+            </div>
+        </div>
+    </br></br></br></br></br>
+
+        <!-- Footer -->
+        <a id="footerPageLink"></a>
+        <footer>
+            <div class="footer">
+                <div>
+                    <p><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp; &nbsp;Nairobi, Kenya</p>
+                    <p><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp; &nbsp;Email Address : aloemo77@gmail.com</p>
+                    <br>
+                    <i class="fa fa-plug" aria-hidden="true"></i>
+                    <br/>
+                </div>
+                <div class="footerSocials">
+                    <a href="www.linkedin.com/in/pat-aloo" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                    <a href="https://github.com/pat-liemo" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    <a href="mailto:aloemo77@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                    <a href="https://wa.me/+254791488881" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                    <a href="tel:+254791488881" target="_blank"><i class="fa fa-phone" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </footer>
+        <script src="./index.js"></script>
+    </body>
+</html>

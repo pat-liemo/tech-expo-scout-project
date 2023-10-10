@@ -1,0 +1,136 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "name": "Tech Conference 2023",
+      "date": "2023-09-15",
+      "location": "San Francisco, CA",
+      "description": "The largest tech conference of the year, featuring top industry speakers and cutting-edge technology.",
+      "attendees": 401,
+      "organizer": "TechEvents Inc",
+      "website": "https://www.techevents.com/conference2023",
+      "image": "https://www.techevents.com/conference2023.jpg"
+    },
+    {
+      "id": 2,
+      "name": "FutureTech Expo",
+      "date": "2023-10-20",
+      "location": "New York City, NY",
+      "description": "Explore the future of technology with hands-on demos and expert panels.",
+      "attendees": 802,
+      "organizer": "TechExpo Enterprises",
+      "website": "https://www.futuretechexpo.com",
+      "image": "https://www.futuretechexpo.com/images/expo2023.jpg"
+    },
+    {
+      "id": 3,
+      "name": "AI Summit",
+      "date": "2023-11-05",
+      "location": "London, UK",
+      "description": "A summit dedicated to artificial intelligence and machine learning innovations.",
+      "attendees": 500,
+      "organizer": "AI Solutions Ltd",
+      "website": "https://www.aisummit.com",
+      "image": "https://www.aisummit.com/assets/ai-summit-2023.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Mobile App Expo 2023",
+      "date": "2023-12-10",
+      "location": "Los Angeles, CA",
+      "description": "Discover the latest trends in mobile app development and design.",
+      "attendees": 600,
+      "organizer": "AppTech Innovations",
+      "website": "https://www.mobileappexpo.com",
+      "image": "https://www.mobileappexpo.com/images/mobile-expo-2023.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Cybersecurity Summit",
+      "date": "2024-02-18",
+      "location": "Washington, D.C.",
+      "description": "An event focused on cybersecurity strategies and solutions for businesses and governments.",
+      "attendees": 750,
+      "organizer": "SecureTech Solutions",
+      "website": "https://www.cybersecuritysummit.com",
+      "image": "https://www.cybersecuritysummit.com/assets/cyber-summit-2024.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Blockchain World Congress",
+      "date": "2024-03-25",
+      "location": "Singapore",
+      "description": "Explore the potential of blockchain technology and its applications across industries.",
+      "attendees": 900,
+      "organizer": "BlockTech Global",
+      "website": "https://www.blockchainworldcongress.com",
+      "image": "https://www.blockchainworldcongress.com/images/blockchain-congress-2024.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Data Science Symposium",
+      "date": "2024-04-30",
+      "location": "Chicago, IL",
+      "description": "A symposium bringing together data scientists and analysts to discuss data-driven insights.",
+      "attendees": 450,
+      "organizer": "DataTech Insights",
+      "website": "https://www.datasciencesymposium.com",
+      "image": "https://www.datasciencesymposium.com/assets/data-symposium-2024.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Robotics Expo 2024",
+      "date": "2024-06-15",
+      "location": "Tokyo, Japan",
+      "description": "An international robotics expo showcasing advancements in robotics and automation.",
+      "attendees": 1104,
+      "organizer": "RoboTech Japan",
+      "website": "https://www.roboticsexpo2024.com",
+      "image": "https://www.roboticsexpo2024.com/images/robotics-expo-2024.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Tech Innovators Summit",
+      "date": "2024-08-10",
+      "location": "Seattle, WA",
+      "description": "Gather with tech innovators and visionaries to discuss the future of technology.",
+      "attendees": 700,
+      "organizer": "InnovateTech Group",
+      "website": "https://www.techinnovatorssummit.com",
+      "image": "https://www.techinnovatorssummit.com/images/tech-innovators-summit-2024.jpg"
+    },
+    {
+      "id": 10,
+      "name": "VR and AR Showcase",
+      "date": "2023-10-29",
+      "location": "San Diego, CA",
+      "description": "Experience the latest in virtual and augmented reality.",
+      "attendees": 402,
+      "organizer": "InnovateTech Group",
+      "website": "https://vrshowcase2023.com",
+      "image": "https://example.com/vrshowcase.jpg"
+    },
+    {
+      "id": 11,
+      "name": "IoT Innovation Forum",
+      "date": "2023-11-26",
+      "location": "Denver, CO",
+      "description": "Discover the future of the Internet of Things.",
+      "attendees": 300,
+      "organizer": "AppTech Innovations",
+      "website": "https://iotforum2023.com",
+      "image": "https://example.com/iotforum.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Tech Startup Pitch Day",
+      "date": "2023-10-22",
+      "location": "Austin, TX",
+      "description": "Entrepreneurs pitch their innovative tech startups.",
+      "attendees": 152,
+      "organizer": "BlockTech Global",
+      "website": "https://startupday2023.com",
+      "image": "https://example.com/startuppitch.jpg"
+    }
+  ]
+}
