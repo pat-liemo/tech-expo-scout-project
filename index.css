@@ -373,22 +373,17 @@ hr {
         padding: 20px 20px 20px 20px;
         margin-bottom: 0px;
         margin-top: 150px;
-        width: 100vw;
+        width: 90vw;
         font-size: smaller;
     }
     
-    .footerSocials a {
-       
-    }
-    
-    .footerSocials i {
-        color: rgb(180, 174, 174);
-        height: 10px;
+     .footerSocials i {
+        height: 0px;
         width: 0px;
     }
-    
-    .footer a {
-        text-decoration: none;
+
+    #footerPlug {
+        color: rgb(32, 32, 32);
     }
     
 }
