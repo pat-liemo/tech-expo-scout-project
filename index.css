@@ -52,7 +52,7 @@ body {
     flex-direction: row;
     justify-content: space-around;
     margin: 80px;
-    height: 90vh;
+    /* height: 90vh; */
     background-color:rgba(0, 0, 0);
     color: white;
 }
@@ -81,8 +81,7 @@ body {
     background-color:  rgb(255, 255, 0, 0.1);
     color: darkgray;
     /* border-radius: 100px; */
-    height: 77.5vh;
-    overflow: hidden;
+    /* height: 77.5vh; */
     padding: 20px;
 }
 
@@ -136,6 +135,7 @@ hr {
     align-items: last baseline;
     padding: 20px 20px 20px 20px;
     margin-bottom: 0px;
+    margin-top: 280px;
     background-color: rgb(32, 32, 32);
     color: rgb(180, 174, 174);
 }
@@ -207,4 +207,12 @@ input {
 #delete:hover {
     cursor: pointer;
     background-color: rgb(255, 255, 0, 0.8);
+}
+
+#imageDiv img{
+    size: 300px;
+}
+
+#image {
+    height: 300px;
 }
