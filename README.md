@@ -15,6 +15,9 @@
     - Run the index.html file by either using the "GO LIVE" extension or by double clicking of the index.html
     - Congragulations! The application is now successfully running.
 
+## Live Link
+    Deployed Frontend can be accessed here (https://pat-liemo.github.io/tech-expo-scout-project/)
+
 ## Known Bugs
     The number of attendees increase indefinetly with each 'Get Ticket' click. Otherwise, the application runs smoothly.
 
