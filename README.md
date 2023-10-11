@@ -1,6 +1,6 @@
 # TECH-EXPO-SCOUT-PROJECT
 
-#### The app is a simple Tech Expo Scout project
+#### The app is a simple Tech Expo Scout
 
 #### **By Pat Aloo 10/10/2023**
 
@@ -21,9 +21,13 @@
 
 ## Setup/Installation Requirements
     - Fork and clone the repository to your desired local folder.
+
     - Open the folder with vs code.
+
     - Then run "json-server --watch db.json" to run your server.
-    - Run the index.html file by either using the "GO LIVE" extension or by double clicking of the index.html
+
+    - Open the index.html file by either using the "GO LIVE" extension or by double clicking of the index.html
+    
     - Congragulations! The application is now successfully running.
 
 ## Live link
