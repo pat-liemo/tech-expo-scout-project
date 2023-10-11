@@ -76,7 +76,7 @@
             <div id="div3">
                 <h5>Are you an organizer? Fill in the form below to log your event!</h5>
 
-            <form id="form">
+            <form id="form" onsubmit="createExpo();return false">
                     <input id="inputName" type="text" placeholder="Event Name">
                 </br></br>
                     <input id="inputOrganizer" type="text" placeholder="Organizer">
@@ -87,9 +87,9 @@
                 </br></br>
                     <input id="inputAttendess" type="text" placeholder="Number of Attendees (Optional)">
                 </br></br>
-                <textarea id="inputDescription" placeholder="Description"></textarea>
+                    <textarea id="inputDescription" placeholder="Description"></textarea>
                 </br></br>
-                <button type="submit">Log Event</button>
+                    <button type="submit" value="submit">Log Event</button>
             </form>
             </div>
         </div>
