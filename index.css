@@ -253,11 +253,25 @@ hr {
         font-size: 20px;
         margin-right: 6px;
     }
+
+    #navHome {
+        color: black;
+        font-size: 20px;
+        margin-right: 20px;
+        margin-bottom: 50px;
+    }
+    
+    #navContact {
+        color: black;
+        font-size: 20px;
+        margin-top: 20px;
+    }
     
     #navbar {
         margin-left: 0%;
+        margin-right: 0;
         padding: 20px 20px 20px 40px;
-        width: 93%;
+        width: 88%;
         height: 4vh;
         position: fixed;
         top: 0; 
@@ -297,12 +311,84 @@ hr {
 
     #container2 {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-around;
-        margin: 80px;
-        /* height: 90vh; */
-        background-color:rgba(0, 0, 0);
-        color: white;
+        margin-top: 80px;
+        margin-bottom: 80px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #upcomingEvents {
+        width: 80vw;
+        margin-left: 10px;
+        font-size: small;
+        border-radius: 30px;
+    }
+    
+    #upcomingEvents:hover {
+        background-color: rgb(255, 255, 0, 0.1);
+        color: darkgrey;
+    }
+
+    #eventCard {
+        margin-right: 10px;
+        width: 80vw;
+        margin-left: 0px;
+    }
+
+    #eventDetails {
+        border-radius: 30px;
+    }
+    
+    #div3 {
+        padding: 20px;
+        width: 80vw;
+        margin-left: 10px;
+        border-radius: 30px;
+    }
+    
+    #div3 h5 {
+        text-align: center;
+    }
+
+    input {
+        width: 300px;
+    }
+    
+    textarea {
+        width: 300px;
+    }
+
+    hr {
+        width: 100vw;
+        margin-top: 50px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: last baseline;
+        padding: 20px 20px 20px 20px;
+        margin-bottom: 0px;
+        margin-top: 150px;
+        width: 100vw;
+        font-size: smaller;
+    }
+    
+    .footerSocials a {
+       
+    }
+    
+    .footerSocials i {
+        color: rgb(180, 174, 174);
+        height: 10px;
+        width: 0px;
+    }
+    
+    .footer a {
+        text-decoration: none;
     }
     
 }
