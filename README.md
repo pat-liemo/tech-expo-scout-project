@@ -7,6 +7,17 @@
 ## Project Description
     It is a simple expo scout app that allows users to view upcoming tech events and conferences all over the world. It also allows event organizers to log in their own upcoming events.
 
+## MVP
+#### As a User I can:
+    1. See a list of upcoming events on the left side of the application page.
+
+    2. See the details of the first event/expo logged in the middle part of the page.
+
+    3. I can get a ticket to a specific event by clicking the 'Get Ticket' button.
+
+    4. If I am an organizer who wishes to log my own upcoming event onto the app for the public, I can do so by filling in the form on the right side of the page.
+
+    5. As an organizer, I can also delete my logged event by clicking the 'DELETE' button.
 
 ## Setup/Installation Requirements
     - Fork and clone the repository to your desired local folder.
@@ -16,7 +27,7 @@
     - Congragulations! The application is now successfully running.
 
 ## Live Link
-    Deployed Frontend can be accessed here (https://pat-liemo.github.io/tech-expo-scout-project/)
+    Deployed Frontend can be accessed here [Blog](https://pat-liemo.github.io/tech-expo-scout-project/)
 
 ## Known Bugs
     The number of attendees increase indefinetly with each 'Get Ticket' click. Otherwise, the application runs smoothly.
