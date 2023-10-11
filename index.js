@@ -60,7 +60,7 @@ function contentDisplay(data) {
     buttons.innerHTML = `<button id="delete" onclick="deleteEvent(${data.id})">DELETE</button>`
 }
 
-// Function that increases the number of attendees when the GET TICKET button is clicked.
+// Function that increases the number of attendees when the GET TICKET button is clicked. (User Interaction)
 function setupTicketHandler(id) {
     const getTicket = document.getElementById("getTicket");
 
