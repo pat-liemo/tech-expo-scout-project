@@ -166,6 +166,7 @@ textarea {
 
 #submitButton {
     font-weight: 600;
+    height: 25px;
 }
 
 #submitButton:hover {
