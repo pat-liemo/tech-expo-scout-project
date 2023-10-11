@@ -127,6 +127,7 @@ function createExpo() {
         const newDate = document.getElementById("inputDate").value;
         const newLocation = document.getElementById("inputLocation").value;
         const newAttendees = parseInt(document.getElementById("inputAttendess").value, 10);
+        const newInputImage = document.getElementById("inputImageUrl").value;
         const newDescription = document.getElementById("inputDescription").value;
 
         fetch("http://localhost:3000/events", {
@@ -142,7 +143,8 @@ function createExpo() {
                 location: newLocation,
                 description: newDescription,
                 attendees: newAttendees,
-                organizer:newOrganizer
+                organizer:newOrganizer,
+                image: newInputImage
             })
         })
         .then(function(response) {

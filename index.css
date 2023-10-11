@@ -1,6 +1,7 @@
 * {
     font-family: 'Times New Roman', Times, serif;
 }
+
 body {
     background-color: rgba(0, 0, 0);
     margin: 0;
@@ -69,8 +70,20 @@ body {
     color: black;
     width: 20vw;
     text-align: center;
-    /* border-radius: 100px; */
     padding: 20px;
+}
+
+#upcomingEvents:hover {
+    background-color: rgb(255, 255, 0, 0.1);
+    color: darkgrey;
+}
+
+.eventItemClass {
+    color: rgb(88, 88, 12);
+}
+
+.eventItemClass:hover {
+    cursor: pointer;
 }
 
 #imageDiv {
@@ -80,21 +93,84 @@ body {
 #eventDetails {
     background-color:  rgb(255, 255, 0, 0.1);
     color: darkgray;
-    /* border-radius: 100px; */
-    /* height: 77.5vh; */
     padding: 20px;
+}
+
+#imageDiv img{
+    size: 300px;
+}
+
+#image {
+    height: 300px;
+}
+
+#buttonsDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#getTicket {
+    border-radius: 20px;
+    height: 30px;
+    margin-top: 20px;
+    width: 80px;
+    font-weight: 700;
+}
+
+#getTicket:hover {
+    cursor: pointer;
+    background-color: rgb(255, 255, 0, 0.8);
+}
+
+#delete {
+    border-radius: 20px;
+    height: 30px;
+    margin-top: 20px;
+    width: 80px;
+    font-weight: 700;
+}
+
+#delete:hover {
+    cursor: pointer;
+    background-color: rgb(255, 255, 0, 0.8);
 }
 
 #div3 {
     background-color: rgba(255, 255, 255, 0.8);
-    /* border-radius: 100px; */
     color: black;
-    /* width: 22vw; */
     padding: 20px;
+}
+
+#div3:hover {
+    background-color: rgb(255, 255, 0, 0.1);
+    color: darkgrey;
 }
 
 #div3 h5 {
     text-align: center;
+}
+
+input {
+    width: 350px;
+}
+
+#inputDescription {
+    height: 150px;
+}
+
+textarea {
+    width: 350px;
+}
+
+#submitButton {
+    font-weight: 600;
+}
+
+#submitButton:hover {
+    cursor: pointer;
+    background-color: rgb(255, 255, 0, 0.8);
 }
 
 #binaryCode {
@@ -160,63 +236,4 @@ hr {
 
 .footer a {
     text-decoration: none;
-}
-
-#getTicket {
-    border-radius: 20px;
-    height: 30px;
-    margin-top: 20px;
-    width: 80px;
-}
-
-#getTicket:hover {
-    cursor: pointer;
-    background-color: rgb(255, 255, 0, 0.8);
-}
-
-input {
-    width: 350px;
-}
-
-#inputDescription {
-    height: 150px;
-}
-
-.eventItemClass {
-    color: rgb(88, 88, 12);
-}
-
-.eventItemClass:hover {
-    cursor: pointer;
-}
-
-#buttonsDiv {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
-
-#delete {
-    border-radius: 20px;
-    height: 30px;
-    margin-top: 20px;
-    width: 80px;
-}
-
-#delete:hover {
-    cursor: pointer;
-    background-color: rgb(255, 255, 0, 0.8);
-}
-
-#imageDiv img{
-    size: 300px;
-}
-
-#image {
-    height: 300px;
-}
-
-textarea {
-    width: 350px;
 }

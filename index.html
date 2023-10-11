@@ -34,7 +34,8 @@
             </br>
                 <p id="introParagraph">Your go-to source for staying ahead in the world of technology!
 
-                    Stay informed and connected with the latest tech events, expos, and conferences from around the globe! Whether you're a tech enthusiast, developer, entrepreneur, or simply curious about the future, our app has you covered. Explore a world of innovation, networking opportunities, and knowledge-sharing at your fingertips. Join us on this journey to discover the future of tech, one event at a time.</p>
+                    Stay informed and connected with the latest tech events, expos, and conferences from around the globe! Whether you're a tech enthusiast, developer, entrepreneur, or simply curious about the future, our app has you covered. Explore a world of innovation, networking opportunities, and knowledge-sharing at your fingertips. Join us on this journey to discover the future of tech, one event at a time.
+                </p>
             </div>
         </div>
     <hr/>
@@ -46,12 +47,13 @@
                     <!-- List of upcoming events goes here -->
                 </ul>
             </div>
+
             <div id="eventCard">
                 <div id="eventDetails">
                     <h1 id="name">Event name goes here</h1>
-                    <!-- <div id="imageDiv"> -->
+    
                         <img id="image" src="" alt="loading..."/>
-                    <!-- </div> -->
+                    
                     <p><h4>Organized by: </h4><span id="organizer">organizer goes here</span></p>
                 </br>
                     <p><h4><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;Date: </h4><span id="date">date goes here</span></p>
@@ -73,6 +75,7 @@
                     </div>
                 </div>
             </div>
+
             <div id="div3">
                 <h5>Are you an organizer? Fill in the form below to log your event!</h5>
 
@@ -87,9 +90,11 @@
                 </br></br>
                     <input id="inputAttendess" type="text" placeholder="Number of Attendees (Optional)">
                 </br></br>
+                    <input id="inputImageUrl" type="text" placeholder="Event Image URL">
+                </br></br>
                     <textarea id="inputDescription" placeholder="Description"></textarea>
                 </br></br>
-                    <button type="submit" value="submit">Log Event</button>
+                    <button id="submitButton" type="submit" value="submit">Log Event</button>
             </form>
             </div>
         </div>
@@ -114,6 +119,8 @@
                 </div>
             </div>
         </footer>
+
+
         <script src="./index.js"></script>
     </body>
 </html>
