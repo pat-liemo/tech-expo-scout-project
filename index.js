@@ -113,3 +113,42 @@ function deleteEvent(id) {
 function displayNext(id) {
     fetchEvent(id - 1);
 }
+
+// Function creates a new expo using POST
+function createExpo() {
+
+    const form = document.getElementById("form");
+    form.addEventListener("submit", function(e) {
+        e.preventDefault();
+
+        const newExpo = document.getElementById("inputName").value;
+        const newOrganizer = document.getElementById("inputOrganizer").value;
+        const newDate = document.getElementById("inputDate").value;
+        const newLocation = document.getElementById("inputLocation").value;
+        const newAttendees = parseInt(document.getElementById("inputAttendess").value, 10);
+        const newDescription = document.getElementById("inputDescription").value;
+
+        fetch("http://localhost:3000/events", {
+
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "Accept": "application/json"
+            },
+            body: JSON.stringify({
+                name: newExpo,
+                date: newDate,
+                location: newLocation,
+                description: newDescription,
+                attendees: newAttendees,
+                organizer:newOrganizer
+            })
+        })
+        .then(function(response) {
+            return response.json();
+        })
+        .then(function(data) {
+            alert("Event logged successfully!")
+        })
+        })
+}

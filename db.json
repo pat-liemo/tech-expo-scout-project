@@ -6,7 +6,7 @@
       "date": "2023-09-15",
       "location": "San Francisco, CA",
       "description": "The largest tech conference of the year, featuring top industry speakers and cutting-edge technology.",
-      "attendees": 313,
+      "attendees": 319,
       "organizer": "TechEvents Inc",
       "website": "https://www.techevents.com/conference2023",
       "image": "https://i.pinimg.com/564x/92/57/6b/92576be9601f00886b03e58363369647.jpg"
@@ -83,7 +83,7 @@
       "date": "2024-06-15",
       "location": "Tokyo, Japan",
       "description": "An international robotics expo showcasing advancements in robotics and automation.",
-      "attendees": 318,
+      "attendees": 320,
       "organizer": "RoboTech Japan",
       "website": "https://www.roboticsexpo2024.com",
       "image": "https://i.pinimg.com/564x/49/db/dd/49dbdd28cf1c192d9a1772f5e22fb720.jpg"
