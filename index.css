@@ -325,11 +325,6 @@ hr {
         font-size: small;
         border-radius: 30px;
     }
-    
-    #upcomingEvents:hover {
-        background-color: rgb(255, 255, 0, 0.1);
-        color: darkgrey;
-    }
 
     #eventCard {
         margin-right: 10px;
@@ -346,10 +341,6 @@ hr {
         width: 80vw;
         margin-left: 10px;
         border-radius: 30px;
-    }
-    
-    #div3 h5 {
-        text-align: center;
     }
 
     input {
@@ -373,7 +364,7 @@ hr {
         padding: 20px 20px 20px 20px;
         margin-bottom: 0px;
         margin-top: 150px;
-        width: 90vw;
+        width: 93vw;
         font-size: smaller;
     }
     
@@ -386,4 +377,41 @@ hr {
         color: rgb(32, 32, 32);
     }
     
+}
+
+@media (min-width: 416px) and (max-width: 1500px) {
+
+    #introParagraph {
+        margin-right: 20px;
+    }
+
+    #upcomingEvents {
+        width: 80vw;
+        margin-left: 10px;
+    }
+    
+    #eventCard {
+        margin-right: 10px;
+        width: 80vw;
+        margin-left: 0px;
+    }
+    
+    #div3 {
+        padding: 20px;
+        width: 80vw;
+        margin-left: 10px
+    }
+
+    input {
+        width: 300px;
+    }
+    
+    textarea {
+        width: 300px;
+    }
+
+    hr {
+        width: 100vw;
+        margin-top: 50px;
+    }
 }
