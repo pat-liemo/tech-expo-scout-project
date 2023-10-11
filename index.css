@@ -216,3 +216,7 @@ input {
 #image {
     height: 300px;
 }
+
+textarea {
+    width: 350px;
+}

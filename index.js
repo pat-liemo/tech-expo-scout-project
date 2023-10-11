@@ -5,7 +5,7 @@ function pageHandler() {
 
     fetchEvent(1);
 
-    // Fetch and display the names of the expos in a list.
+    // Fetch and display the names of the expos in a list.(READ of CRUD)
     fetch("http://localhost:3000/events")
     .then(function(response) {
         return response.json();
@@ -25,7 +25,7 @@ function listHandler(id) {
     fetchEvent(id);
 }
 
-// Function that fetches and displays the content of each element based on the id passed to it.
+// Function that fetches and displays the content of each element based on the id passed to it.(READ of CRUD)
 function fetchEvent(id) {
     fetch(`http://localhost:3000/events/${id}`)
         .then(function (response) {
@@ -75,7 +75,7 @@ function setupTicketHandler(id) {
     });
 }
 
-// Function updates the number of 'attendees' using PATCH every time a ticket is purchased.
+// Function updates the number of 'attendees' using PATCH every time a ticket is purchased.(UPDATE of CRUD)
 function updateAttendeesCount(id, attendees) {
     fetch(`http://localhost:3000/events/${id}`, {
         method: "PATCH",
@@ -88,7 +88,7 @@ function updateAttendeesCount(id, attendees) {
     });
 }
 
-// Function to delete an event when its delete button is clicked.
+// Function to delete an event when its delete button is clicked.(DELETE of CRUD)
 function deleteEvent(id) {
     const eventItemId = `eventItem-${id}`
     const eventItem = document.getElementById(eventItemId)
@@ -114,10 +114,11 @@ function displayNext(id) {
     fetchEvent(id - 1);
 }
 
-// Function creates a new expo using POST
+// Function creates a new expo using POST.(CREATE of CRUD)
 function createExpo() {
 
     const form = document.getElementById("form");
+
     form.addEventListener("submit", function(e) {
         e.preventDefault();
 
@@ -150,5 +151,8 @@ function createExpo() {
         .then(function(data) {
             alert("Event logged successfully!")
         })
+        .catch(function() {
+            alert("Oops! Something went wrong!")
         })
+    })
 }
