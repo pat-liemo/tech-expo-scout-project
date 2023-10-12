@@ -6,7 +6,7 @@ function pageHandler() {
     fetchEvent(1);
 
     // Fetch and display the names of the expos in a list.(READ of CRUD)
-    fetch("http://localhost:3000/events")
+    fetch("https://tech-expo-scout.onrender.com/events")
     .then(function(response) {
         return response.json();
     })
@@ -27,7 +27,7 @@ function listHandler(id) {
 
 // Function that fetches and displays the content of each element based on the id passed to it.(READ of CRUD)
 function fetchEvent(id) {
-    fetch(`http://localhost:3000/events/${id}`)
+    fetch(`https://tech-expo-scout.onrender.com/events/${id}`)
         .then(function (response) {
             return response.json();
         })
@@ -77,7 +77,7 @@ function setupTicketHandler(id) {
 
 // Function updates the number of 'attendees' using PATCH every time a ticket is purchased.(UPDATE of CRUD)
 function updateAttendeesCount(id, attendees) {
-    fetch(`http://localhost:3000/events/${id}`, {
+    fetch(`https://tech-expo-scout.onrender.com/events/${id}`, {
         method: "PATCH",
         headers: {
             "Content-Type": "application/json"
@@ -93,7 +93,7 @@ function deleteEvent(id) {
     const eventItemId = `eventItem-${id}`
     const eventItem = document.getElementById(eventItemId)
 
-    fetch(`http://localhost:3000/events/${id}`, {
+    fetch(`https://tech-expo-scout.onrender.com/events/${id}`, {
         method: "DELETE",
         headers: {
             "Content-type" : "application/json"
@@ -130,7 +130,7 @@ function createExpo() {
         const newInputImage = document.getElementById("inputImageUrl").value;
         const newDescription = document.getElementById("inputDescription").value;
 
-        fetch("http://localhost:3000/events", {
+        fetch("https://tech-expo-scout.onrender.com/events", {
 
             method: "POST",
             headers: {
