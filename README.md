@@ -42,6 +42,7 @@ Deployed Frontend can be accessed here [Scout App](https://pat-liemo.github.io/t
     - HTML and CSS
     - Fontawesome
     - JSON server
+    - Terminal
 
 ## Support and contact details
     - email :: aloemo77@gmail.com
